@@ -1,10 +1,12 @@
 # Hackathon Notes Taker App
 
-## Waterloo CxC Hackathon 2025 Workshop - Using Ollama to run an LLM locally
+## Waterloo CxC Hackathon 2025 Workshop
 
 ### Project Description
 
 This project is a simple boiler plate application that connects a simple Fast API backend to a simple React frontend. The app is a hackathon notes enhancer, it allows users to record hackathon notes and has an LLM enhance these notes and fill in some gaps.
+
+This app was built to demo running an LLM locally using Ollama
 
 Refer to this video for how to install Ollama and an LLM locally on your computer:
 https://www.youtube.com/watch?v=UtSSMs6ObqY
