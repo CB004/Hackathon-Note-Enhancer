@@ -4,7 +4,7 @@
 
 ### Project Description
 
-This project is a simple boiler plate application that connects a simple Fast API backend to a simple React frontend. The app is a hackathon notes summarizer, it allows users to record hackathon notes and has an LLM summarize these notes and fill in some gaps.
+This project is a simple boiler plate application that connects a simple Fast API backend to a simple React frontend. The app is a hackathon notes enhancer, it allows users to record hackathon notes and has an LLM enhance these notes and fill in some gaps.
 
 Refer to this video for how to install Ollama and an LLM locally on your computer:
 https://www.youtube.com/watch?v=UtSSMs6ObqY
@@ -49,6 +49,6 @@ npm run dev
 
 The application will be available at:
 
-- Frontend: http://localhost:3000
+- Frontend: http://localhost:5173
 - Backend API: http://localhost:8000
 - API Documentation: http://localhost:8000/docs
