@@ -11,6 +11,9 @@ This app was built to demo running an LLM locally using Ollama
 Refer to this video for how to install Ollama and an LLM locally on your computer:
 https://www.youtube.com/watch?v=UtSSMs6ObqY
 
+Demo and setup instructions for this project:
+https://youtu.be/uawO2Ce99DU
+
 ## Setup Instructions
 
 ### Backend Setup (Python 3.11+ required)
