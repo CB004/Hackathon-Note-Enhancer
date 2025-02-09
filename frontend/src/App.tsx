@@ -1,7 +1,7 @@
-import NotesForm from "./components/NotesForm";
-import EnhancedNotes from "./components/EnhancedNotesSection";
-import { generateEnhancedNotes } from "./api/EnhancedNotes";
 import { useState } from "react";
+import { generateEnhancedNotes } from "./api/EnhancedNotes";
+import EnhancedNotes from "./components/EnhancedNotesSection";
+import NotesForm from "./components/NotesForm";
 
 function App() {
   const [enhancedNotes, setEnhancedNotes] = useState("");
@@ -24,7 +24,11 @@ function App() {
       </h1>
       <div className="max-w-lg mx-auto bg-slate-100 rounded-md p-5 space-y-6">
         <NotesForm onSubmit={enhanceNotes} />
-        <EnhancedNotes isLoading={notesLoading} notes={enhancedNotes} error={notesError} />
+        <EnhancedNotes
+          isLoading={notesLoading}
+          notes={enhancedNotes}
+          error={notesError}
+        />
       </div>
     </main>
   );
