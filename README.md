@@ -11,6 +11,9 @@ This app was built to demo running an LLM locally using Ollama
 Refer to this video for how to install Ollama and an LLM locally on your computer:
 https://www.youtube.com/watch?v=UtSSMs6ObqY
 
+Refer to this video for how to train an existing open source LLM against your own data: 
+https://www.youtube.com/watch?v=pxhkDaKzBaY&t=241s&pp=ygUQY3VzdG9taXplIG9sbGFtYQ%3D%3D 
+
 Demo and setup instructions for this project:
 https://youtu.be/uawO2Ce99DU
 
